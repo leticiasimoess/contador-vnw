@@ -1,0 +1,90 @@
+/* Estilo para o container do contador  */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  text-align: center;
+  
+}
+
+.social-link {
+  align-self: flex-end;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+.social-link img{
+  height: 30px;
+  width: 30px;
+}
+
+.container-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilo para o título do contador */
+h1 {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+/* Estilo para o valor do contador */
+p {
+margin-top: 15%;
+  color: #28a745;
+  font-size: 50px;
+  
+}
+/* Estilo para os botões de + / -*/
+
+button {
+  height: 8vh;
+  width: 9vw;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: ease-in-out 0.4s;
+  border: none;
+}
+
+button:hover {
+  background-color: #faf9f9;
+}
+
+
+.left-button {
+  text-align: center;
+  background-color: #298ffc;
+  color: black;
+  margin-top: 30%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 90px;
+}
+
+.right-button {
+  background-color: #dc3545;
+  color: black;
+  margin-top: 30%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 90px;
+}
+
+.center-button {
+  background-color: #28a745;
+  color: black;
+  position: relative;
+ margin-top: 10%;
+}
+
