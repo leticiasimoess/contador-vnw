@@ -21,7 +21,7 @@ Isso vai permitir que voce mantenha o controle do valor do contador no estado do
     if (count > 0) {
       setCount(count - 1);
     } else {
-      alert('O contador chegou ao seu limite. Por favor, adicione para continuar!');
+      alert('Adicione para continuar!');
     }
   };
 
