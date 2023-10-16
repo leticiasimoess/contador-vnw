@@ -14,6 +14,8 @@ Isso vai permitir que voce mantenha o controle do valor do contador no estado do
   const aumentar = () => {
     if (count < 10) {
       setCount(count + 1);
+    } else {
+     alert ('Voce atingiu o limite, diminue ou reinicie!');
     }
   };
 
