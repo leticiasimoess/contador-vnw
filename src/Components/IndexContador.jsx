@@ -41,7 +41,7 @@ Isso vai permitir que voce mantenha o controle do valor do contador no estado do
         <a href="https://www.linkedin.com/in/leesimoes/" target="blank">
           <img src={linkedin} alt="logo do linkedin" />
         </a>
-        <a href="https://github.com/leticiasimoes" target="blank">
+        <a href="https://github.com/leticiasimoess" target="blank">
           <img src={github} alt="logo do github" />
         </a>
       </div>
